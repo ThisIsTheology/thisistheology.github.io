@@ -11,7 +11,7 @@ permalink: /hebrew-delimiter/
   <textarea id="inputText" class="hebrew-box" rows="6" dir="rtl" lang="he" placeholder="Paste Hebrew text from Logos here..."></textarea>
 
   <label for="outputText" class="delimiter-label">Processed output (logical text order)</label>
-  <textarea id="outputText" class="hebrew-box" rows="6" dir="ltr" lang="he" readonly placeholder="Processed output will appear here..."></textarea>
+  <textarea id="outputText" class="hebrew-box" rows="6" dir="rtl" lang="he" readonly placeholder="Processed output will appear here..."></textarea>
 
   <p class="delimiter-note">
     <em>Text can be shown incorrectly; use <strong>RTL Preview</strong> to see correctly formatted text.</em>
@@ -45,6 +45,7 @@ permalink: /hebrew-delimiter/
   .hebrew-box {
     width: 100%;
     box-sizing: border-box;
+    text-align: right;
     padding: 0.85rem;
     font-family: "SBL Hebrew", "Ezra SIL", "Frank Ruhl Libre", "Times New Roman", serif;
     font-size: 1.55rem;

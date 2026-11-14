@@ -226,16 +226,24 @@ function createZip(files) {
 }
 
 function createWordDocument(text) {
+  const schemaBase = "http://openxmlformats.org";
+  const wNs = schemaBase + "/wordprocessingml/2006/main";
+  const ctNs = schemaBase + "/package/2006/content-types";
+  const relNs = schemaBase + "/package/2006/relationships";
+  const docRelType = schemaBase + "/officeDocument/2006/relationships/officeDocument";
+
   const paragraphs = text.split("\n").map(wordParagraph).join("");
-  const documentXml = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<w:document xmlns:w="http://openxmlformats.org"><w:body>${paragraphs}<w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="1417" w:right="1417" w:bottom="1417" w:left="1417" w:header="708" w:footer="708" w:gutter="0"/></w:sectPr></w:body></w:document>`;
-  const contentTypes = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://openxmlformats.org"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/></Types>';
-  const relationships = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://openxmlformats.org"><Relationship Id="rId1" Type="http://openxmlformats.org" Target="word/document.xml"/></Relationships>';
+  const documentXml = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<w:document xmlns:w="${wNs}"><w:body>${paragraphs}<w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="1417" w:right="1417" w:bottom="1417" w:left="1417" w:header="708" w:footer="708" w:gutter="0"/></w:sectPr></w:body></w:document>`;
+  const contentTypes = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="${ctNs}"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/></Types>`;
+  const relationships = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="${relNs}"><Relationship Id="rId1" Type="${docRelType}" Target="word/document.xml"/></Relationships>`;
+
   return createZip({
     "[Content_Types].xml": contentTypes,
     "_rels/.rels": relationships,
     "word/document.xml": documentXml
   });
 }
+
 
 
 const inputText = document.getElementById("inputText");

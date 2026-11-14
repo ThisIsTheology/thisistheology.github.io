@@ -1,14 +1,8 @@
-remote_theme: "mmistakes/minimal-mistakes@4.28.1"
-
-minimal_mistakes_skin: "default"
-
 title: "This Is Theology"
 subtitle: "Welcome to wanderings in the world of theology"
 name: "Erik Versteegt"
 
+remote_theme: danjenson/et
+markdown: kramdown
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
+  - jekyll-remote-theme

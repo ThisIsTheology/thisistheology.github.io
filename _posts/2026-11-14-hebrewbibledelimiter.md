@@ -1,9 +1,8 @@
 ---
 title: "Hebrew Bible Delimiter"
 date: 2026-11-14
-layout: single
-header:
-  teaser: /assets/images/hbd.jpg
+layout: post
+
 categories:
   - updates
 tags:

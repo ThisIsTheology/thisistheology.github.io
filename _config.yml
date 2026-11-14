@@ -1,14 +1,14 @@
 baseurl: /tufte-jekyll
-title: Tufte-Jekyll
-subtitle: Content-centric blogging
+title: This Is Theology
+subtitle: My wanderings in Theology and following Jesus
 author: clay harmon
 simple_search: http://google.com/search
-description: A Jekyll theme for content-rich sites
-name: tufte
+description: A Theology-oriented blog
+name: Versteegt
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /articles/:short_year/:title
-timezone: America/New_York
+timezone: Europe/Amsterdam
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
 post:

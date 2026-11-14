@@ -1,23 +1,77 @@
-# Mediumish - Jekyll Theme
+<!-- markdownlint-disable-next-line -->
+<div align="center">
 
-[Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/template-mediumish-bootstrap-jekyll/) &nbsp; | &nbsp; [Buy me a coffee](https://www.wowthemes.net/donate/)
+  <!-- markdownlint-disable-next-line -->
+  # Chirpy Jekyll Theme
 
-![mediumish](assets/images/mediumish-jekyll-template.png)
+  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
 
+  [![CI][badge-ci]][ci]&nbsp;
+  [![Codacy Badge][badge-codacy]][codacy]&nbsp;
+  [![GitHub license][badge-license]][license]&nbsp;
+  [![Gem Version][badge-gem]][gem]&nbsp;
+  [![Open in Dev Containers][badge-open-container]][open-container]
 
-### Copyright
+  [**Live Demo** →][demo]
 
-Copyright (C) 2019 Sal, https://www.wowthemes.net
+  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
 
-**Mediumish for Jekyll** is designed and developed by [Sal](https://www.wowthemes.net) and it is *free* under MIT license. 
+</div>
 
-<a href="https://www.wowthemes.net/donate/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+## Features
 
-### Contribute
+- **Design & UX** - Responsive layout, Dark/Light modes, Localized UI language,
+  and Dark mode images.
+- **Content Management** - Pinned posts, Hierarchical categories, Trending tags,
+  Auto-generated Table of Contents, and Last modified dates.
+- **Rich Text Support** - Syntax highlighting, Mathematical expressions, Mermaid
+  diagrams & flowcharts, and Embedded media.
+- **Interactivity & Outreach** - Built-in search, Multiple comment systems, and
+  Atom feeds.
+- **System & Optimization** - PWA support, integrated Web analytics, and
+  advanced SEO performance.
 
-1. [Fork the repo](https://github.com/wowthemesnet/mediumish-theme-jekyll).
-2. Clone a copy of your fork on your local
-3. Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
-4. Make necessary changes, commit, push and open a pull request on GitHub.
+## Documentation
 
-Thank you!
+To learn how to use, develop, and upgrade the project, please refer to the
+[Wiki][wiki].
+
+## Contributing
+
+Contributions (_pull requests_, _issues_, and _discussions_) are what make the
+open-source community such an amazing place to learn, inspire, and create. Any
+contributions you make are greatly appreciated.
+For details, please refer to our [Contributing Guidelines][contribute-guide].
+
+## Credits
+
+This project is built on the [Jekyll][jekyllrb] ecosystem and integrates a
+collection of [excellent libraries][lib]. Its avatar and favicon are sourced
+from [ClipartMAX][clipartmax].
+
+Furthermore, thanks to everyone who contributed to the development of this project!
+
+[![all-contributors][contributors-avatar]][contributors]
+
+## License
+
+This project is licensed under the [MIT License][license].
+
+[badge-ci]: https://img.shields.io/github/actions/workflow/status/cotes2020/jekyll-theme-chirpy/ci.yml?logo=github
+[badge-codacy]: https://img.shields.io/codacy/grade/4e556876a3c54d5e8f2d2857c4f43894?logo=codacy
+[badge-license]: https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy?color=goldenrod
+[badge-gem]: https://img.shields.io/gem/v/jekyll-theme-chirpy?&logo=RubyGems&logoColor=ghostwhite&label=gem&color=orange
+[badge-open-container]: https://img.shields.io/badge/Dev_Containers-Open-deepskyblue?logo=linuxcontainers
+[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
+[ci]: https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
+[codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
+[license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
+[open-container]: https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/cotes2020/jekyll-theme-chirpy
+[jekyllrb]: https://jekyllrb.com/
+[clipartmax]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
+[demo]: https://cotes2020.github.io/chirpy-demo/
+[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
+[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md
+[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
+[contributors-avatar]: https://contrib.rocks/image?repo=cotes2020/jekyll-theme-chirpy&columns=16&max=112
+[lib]: https://github.com/cotes2020/chirpy-static-assets

@@ -1,8 +1,8 @@
-remote_theme: "jekyll/minima@1e8a445"
-title: This Is Theology
-description: Join me in the fascinating world of theology.
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
 
 plugins:
-  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
-  - jekyll-seo-tag
+  - jekyll-include-cache

@@ -237,6 +237,7 @@ function createWordDocument(text) {
   });
 }
 
+
 const inputText = document.getElementById("inputText");
 const outputText = document.getElementById("outputText");
 const status = document.getElementById("status");

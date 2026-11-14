@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Edge Cases"
+title:  "Hebrew Text Delimitation"
 date:   2026-11-14
 categories: post
 ---

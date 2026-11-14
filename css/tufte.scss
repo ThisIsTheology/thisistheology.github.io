@@ -658,10 +658,9 @@ body.full-width {
 }
 
 header > nav a img.badge {
-  width: 80px !important;
-  height: 80px !important;
-  max-width: none !important;
-  border-radius: 50% !important;
-  object-fit: cover !important;
-  mix-blend-mode: multiply !important;
+  height: 5rem;
+  width: auto;
+  border-radius: 50%;
+  object-fit: contain;
+  mix-blend-mode: multiply;
 }

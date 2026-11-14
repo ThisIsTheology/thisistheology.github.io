@@ -1,6 +1,6 @@
 remote_theme: "jekyll/minima@1e8a445"
-title: My GitHub Pages Site
-description: A short tagline for my project
+title: This Is Theology
+description: Join me in the fascinating world of theology.
 
 plugins:
   - jekyll-remote-theme

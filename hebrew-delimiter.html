@@ -7,11 +7,17 @@ permalink: /hebrew-delimiter/
 <p>Select Hebrew text in Logos, and copy using the <strong>'Text Only'</strong> option.</p>
 
 <div class="delimiter-container">
-  <label for="inputText" class="delimiter-label">Hebrew text</label>
-  <textarea id="inputText" class="hebrew-box" rows="6" dir="rtl" lang="he" placeholder="Paste Hebrew text from Logos here..."></textarea>
+  <div class="delimiter-grid">
+    <div class="delimiter-column">
+      <label for="inputText" class="delimiter-label">Hebrew text</label>
+      <textarea id="inputText" class="hebrew-box" rows="8" dir="rtl" lang="he" placeholder="Paste Hebrew text from Logos here..."></textarea>
+    </div>
 
-  <label for="outputText" class="delimiter-label">Processed output (logical text order)</label>
-  <textarea id="outputText" class="hebrew-box" rows="6" dir="rtl" lang="he" readonly placeholder="Processed output will appear here..."></textarea>
+    <div class="delimiter-column">
+      <label for="outputText" class="delimiter-label">Processed output (logical text order)</label>
+      <textarea id="outputText" class="hebrew-box" rows="8" dir="rtl" lang="he" readonly placeholder="Processed output will appear here..."></textarea>
+    </div>
+  </div>
 
   <p class="delimiter-note">
     <em>Text can be shown incorrectly; use <strong>RTL Preview</strong> to see correctly formatted text.</em>
@@ -31,42 +37,67 @@ permalink: /hebrew-delimiter/
 <style>
   .delimiter-container {
     width: 100%;
-    max-width: 650px;
+    max-width: 1100px;
     margin-top: 1.5rem;
     margin-bottom: 2.5rem;
   }
+
+  .delimiter-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+    align-items: start;
+  }
+
+  @media (max-width: 850px) {
+    .delimiter-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .delimiter-column {
+    display: flex;
+    flex-direction: column;
+  }
+
   .delimiter-label {
     display: block;
     font-size: 1.25rem;
     font-weight: bold;
-    margin-top: 1.2rem;
-    margin-bottom: 0.4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
+
   .hebrew-box {
     width: 100%;
     box-sizing: border-box;
-    text-align: right;
     padding: 0.85rem;
     font-family: "SBL Hebrew", "Ezra SIL", "Frank Ruhl Libre", "Times New Roman", serif;
     font-size: 1.55rem;
     line-height: 1.9;
+    text-align: right;
+    direction: rtl;
+    unicode-bidi: plaintext;
     background-color: #ffffff;
     color: #111111;
     border: 1px solid #cccccc;
     border-radius: 3px;
   }
+
   .delimiter-note {
     font-size: 1.15rem;
-    margin-top: 0.75rem;
+    margin-top: 0.9rem;
     margin-bottom: 1rem;
     width: 100%;
   }
+
   .delimiter-buttons {
     display: flex;
     flex-wrap: wrap;
     gap: 0.6rem;
     margin-top: 1rem;
   }
+
   .delimiter-buttons button {
     font-family: inherit;
     font-size: 1.15rem;
@@ -77,9 +108,11 @@ permalink: /hebrew-delimiter/
     border-radius: 3px;
     cursor: pointer;
   }
+
   .delimiter-buttons button:hover {
     background-color: #f0efe6;
   }
+
   .delimiter-status {
     font-size: 1.1rem;
     font-style: italic;

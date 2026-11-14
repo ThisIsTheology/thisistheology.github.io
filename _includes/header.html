@@ -1,15 +1,9 @@
 <!--- Header and nav template site-wide -->
 <header>
-    <nav class="group">
-	<a href="{{site.baseurl}}/"><img class="badge" src="{{site.baseurl}}/assets/img/crucifixion_badge.png" alt="Home" style="height: 80px; width: 80px; border-radius: 50%; object-fit: cover; mix-blend-mode: multiply; vertical-align: middle;"></a>
-	{% for node in site.pages %}
-		{% unless node.nav_exclude %}
-		    {% if page.url == node.url %}
-		      <a class="active" href="{{node.url | prepend: site.baseurl}}" class="active">{{node.title}}</a>
-		    {% else %}
-		      <a href="{{node.url | prepend: site.baseurl}}">{{node.title}}</a>
-		    {% endif %}
-	    {% endunless %}
-  	{% endfor %}
-	</nav>
+  <nav class="group">
+    <a href="{{site.baseurl}}/"><img class="badge" src="{{site.baseurl}}/assets/img/crucifixion_badge.png" alt="Home" style="height: 80px; width: 80px; border-radius: 50%; object-fit: cover; mix-blend-mode: multiply; vertical-align: middle;"></a>
+    <a {% if page.url == "/" %}class="active"{% endif %} href="{{site.baseurl}}/">This Is Theology</a>
+    <a {% if page.url == "/about/" %}class="active"{% endif %} href="{{site.baseurl}}/about/">About</a>
+    <a {% if page.url == "/hebrew-delimiter/" %}class="active"{% endif %} href="{{site.baseurl}}/hebrew-delimiter/">Hebrew Delimiter</a>
+  </nav>
 </header>

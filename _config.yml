@@ -2,6 +2,10 @@ remote_theme: "mmistakes/minimal-mistakes@4.28.1"
 
 minimal_mistakes_skin: "dark"
 
+title: "This Is Theology"
+subtitle: "Welcome to wanderings in the world of theology"
+name: "Erik Versteegt"
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap

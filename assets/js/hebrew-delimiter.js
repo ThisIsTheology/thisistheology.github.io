@@ -226,7 +226,7 @@ function createZip(files) {
 }
 
 function createWordDocument(text) {
-  const schemaBase = "http://openxmlformats.org";
+  const schemaBase = "http://" + "schemas." + "openxmlformats.org";
   const wNs = schemaBase + "/wordprocessingml/2006/main";
   const ctNs = schemaBase + "/package/2006/content-types";
   const relNs = schemaBase + "/package/2006/relationships";

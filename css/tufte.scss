@@ -645,12 +645,7 @@ hr.slender {
 }
 /*-- End of Icomoon icon font section --*/
 
-header nav img,
-img.badge {
-  height: 44px;
-  width: 44px;
-  border-radius: 50%;
-  object-fit: cover;
-  mix-blend-mode: multiply;
-  vertical-align: middle;
+html {
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
 }

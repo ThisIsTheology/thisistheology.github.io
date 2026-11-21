@@ -27,7 +27,7 @@ When Israel arrives in the Holy Land, the Tabernacle and in it the Ark are set u
 
 The picture below shows the travels the Ark made in the Holy Land ([source](https://biblemapper.com/blog/index.php/2023/03/11/the-ark-of-the-covenant-in-the-promised-land/)):
 
-![The Ark in the Holy Land](/ArkOfCovenantLocations_high.jpg)
+![The Ark in the Holy Land](/assets/img/ArkOfCovenantLocations_high.jpg)
 
 So, after all this wanderings, this is where we are left. The Ark is in the Temple, and that is all we know. Of its fate, nothing more is told. Or is it?
 

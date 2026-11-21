@@ -6,7 +6,7 @@ categories: post
 ---
 ## The Silent Disappearance of the Ark of the Covenant from the Old Testament? ##
 
-During one of my daily Bible readings, I came across this passage in Jeremiah:
+During one of my daily Bible readings, I came across this passage in Jeremiah: <!--more-->
 
 > <sup>12</sup> In the fifth month, on the tenth day of the month—which was the nineteenth year of King Nebuchadrezzar, king of Babylon—Nebuzaradan the captain of the bodyguard who served the king of Babylon, entered Jerusalem. <sup>13</sup> He burned the house of the Lord, the king's house, and all the houses of Jerusalem; every great house he burned down. <sup>14</sup> All the army of the Chaldeans, who were with the captain of the guard, broke down all the walls around Jerusalem. <sup>15</sup> the captain of the guard carried into exile some of the poorest of the people and the rest of the people who were left in the city and the deserters who had defected to the king of Babylon, together with the rest of the artisans. <sup>16</sup> But Nebuzaradan the captain of the guard left some of the poorest people of the land to be vinedressers and tillers of the soil.
 
@@ -50,4 +50,3 @@ God Himself says that there will be times that the Ark will not be remembered an
 >(Revelations 21:1-5, NRSV).
 
 We are longing for this new Jerusalem, where God will be among us, dwell with us as our God. What a bright future that is!
-```

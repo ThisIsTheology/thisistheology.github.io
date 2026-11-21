@@ -23,7 +23,7 @@ The importance of the Ark becomes clear when God dictates that:
 
 The Ark of the Covenant was thus the place where God would meet his people, it is His throne. During Israel's journeys the Ark would go before them (Numbers 10:33), and the people would follow. It went with Israel to the Holy Land.
 
-When Israel arrives in the Holy Land, the Tabernacle and in it the Ark are set up in Shiloh (Joshua 18:1) as well as in Bethel (Judges 20:27). The Ark becomes one of the main characters in the books of Samuel. During battle, it is used by Israel as a some sort of mascot, a 'portable god,' to bring them luck in the battles with the Philistines. This ends in disaster and the Ark is taken by their enemies. After a while, the Ark is returned to Israel, because God brings disaster over the Philistines. After some intermediate stops, the Ark finally moves to Jerusalem, in a special tent David had made for it (2 Samuel 6:17). Interestingly enough, the Tabernacle itself was not brought to Jerusalem! It remained in Gibeon (1 Chronicles 21:29). When Salomo finished the construction of the Temple of the Lord, the Ark is brought into the Most Holy Place inside the Temple (2 Chronicles 5:7, and much later again in 2 Chronicles 35:3). From then onwards, we do not hear anything about the Ark itself anymore.
+When Israel arrives in the Holy Land, the Tabernacle and in it the Ark are set up in Shiloh (Joshua 18:1) as well as in Bethel (Judges 20:27). The Ark becomes one of the main characters in the books of Samuel. During battle, it is used by Israel as a some sort of mascot, a 'portable god,' to bring them luck in the battles with the Philistines. This ends in disaster and the Ark is taken by their enemies. After a while, the Ark is returned to Israel, because God brings disaster over the Philistines. After some intermediate stops, the Ark finally moves to Jerusalem, in a special tent David had made for it (2 Samuel 6:17). Interestingly enough, the Tabernacle itself was not brought to Jerusalem! It remained in Gibeon (1 Chronicles 21:29). When Solomon finished the construction of the Temple of the Lord, the Ark is brought into the Most Holy Place inside the Temple (2 Chronicles 5:7, and much later again in 2 Chronicles 35:3). From then onwards, we do not hear anything about the Ark itself anymore.
 
 The picture below shows the travels the Ark made in the Holy Land ([source](https://biblemapper.com/blog/index.php/2023/03/11/the-ark-of-the-covenant-in-the-promised-land/)):
 
@@ -49,6 +49,6 @@ God Himself says that there will be times that the Ark will not be remembered an
 >mourning and crying and pain will be no more,  
 >for the first things have passed away."  
 ><sup>5</sup>And the one who was seated on the throne said, "See, I am making all things new."  
->(Revelations 21:1-5, NRSV).
+>(Revelation 21:1-5, NRSV).
 
 We are longing for this new Jerusalem, where God will be among us, dwell with us as our God. What a bright future that is!

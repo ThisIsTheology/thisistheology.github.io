@@ -4,10 +4,7 @@ title:  "where is the Ark of the Covenant?"
 date:   2026-11-14
 categories: post
 ---
-## The Silent Disappearance of the Ark of the Covenant from the Old Testament?
-
- ```
-## The Silent Disappearance of the Ark of the Covenant from the Old Testament
+## The Silent Disappearance of the Ark of the Covenant from the Old Testament? ##
 
 During one of my daily Bible readings, I came across this passage in Jeremiah:
 
